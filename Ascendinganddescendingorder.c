@@ -183,7 +183,7 @@ number *deleteList(number *head)
     while(head != NULL)
     {
         temp = head;
-        head = head->next
+        head = head->next;
         free(temp);
     }
 
