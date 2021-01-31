@@ -107,7 +107,7 @@ int findSmallestNumber(number *numberList)
     return smallestNumber;
 }
 
-number *deleteList(number *head)
+number *deleteAll(number *head)
 {
     number *temp;
 
@@ -146,7 +146,7 @@ int main()
     printf("\nLargest number is: %d", largestNumber);   // Printing.
     printf("\nSmallest number is: %d", smallestNumber); // Printing.
 
-    list = deleteList(list);
+    list = deleteAll(list);
 
     return 0;
 };
